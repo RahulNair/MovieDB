@@ -1,0 +1,181 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPMethod"
+- "Task"
+- "ParametersEncoding"
+- "APIResponse"
+- "NetworkError"
+- "FetchingServiceState"
+provides-nominal:
+- "7MovieDB10HTTPMethodO"
+- "7MovieDB4TaskO"
+- "7MovieDB18ParametersEncodingO"
+- "7MovieDB11APIResponseO"
+- "7MovieDB12NetworkErrorO"
+- "7MovieDB20FetchingServiceStateO"
+provides-member:
+- ["7MovieDB10HTTPMethodO", ""]
+- ["7MovieDB4TaskO", ""]
+- ["7MovieDB18ParametersEncodingO", ""]
+- ["7MovieDB11APIResponseO", ""]
+- ["7MovieDB12NetworkErrorO", ""]
+- ["7MovieDB20FetchingServiceStateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "APIResponse"
+- !private "Array"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "FetchingServiceState"
+- !private "FloatLiteralType"
+- "HTTPMethod"
+- !private "IntegerLiteralType"
+- "NetworkError"
+- "ParametersEncoding"
+- "String"
+- "StringLiteralType"
+- "T"
+- "Task"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["7MovieDB11APIResponseO", "NetworkError"]
+- ["7MovieDB11APIResponseO", "failure"]
+- ["7MovieDB11APIResponseO", "success"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "__derived_enum_equals"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["7MovieDB20FetchingServiceStateO", "=="]
+- ["7MovieDB20FetchingServiceStateO", "NetworkError"]
+- ["7MovieDB20FetchingServiceStateO", ""]
+- ["7MovieDB20FetchingServiceStateO", "__derived_enum_equals"]
+- ["7MovieDB20FetchingServiceStateO", "error"]
+- ["7MovieDB20FetchingServiceStateO", "finishedLoading"]
+- ["7MovieDB20FetchingServiceStateO", "loading"]
+- ["7MovieDB10HTTPMethodO", "=="]
+- ["7MovieDB10HTTPMethodO", "Default_RawValue"]
+- ["7MovieDB10HTTPMethodO", "RawValue"]
+- ["7MovieDB10HTTPMethodO", ""]
+- ["7MovieDB10HTTPMethodO", "_Default_RawValue"]
+- !private ["7MovieDB10HTTPMethodO", "_findStringSwitchCase"]
+- ["7MovieDB10HTTPMethodO", "_rawHashValue"]
+- ["7MovieDB10HTTPMethodO", "delete"]
+- !private ["7MovieDB10HTTPMethodO", "findStringSwitchCase"]
+- ["7MovieDB10HTTPMethodO", "get"]
+- ["7MovieDB10HTTPMethodO", "hash"]
+- ["7MovieDB10HTTPMethodO", "hashValue"]
+- ["7MovieDB10HTTPMethodO", "init"]
+- ["7MovieDB10HTTPMethodO", "post"]
+- ["7MovieDB10HTTPMethodO", "put"]
+- ["7MovieDB10HTTPMethodO", "rawValue"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["7MovieDB12NetworkErrorO", "=="]
+- ["7MovieDB12NetworkErrorO", "JSONDecoder"]
+- ["7MovieDB12NetworkErrorO", ""]
+- ["7MovieDB12NetworkErrorO", "__derived_enum_equals"]
+- ["7MovieDB12NetworkErrorO", "_rawHashValue"]
+- ["7MovieDB12NetworkErrorO", "hash"]
+- ["7MovieDB12NetworkErrorO", "hashValue"]
+- ["7MovieDB12NetworkErrorO", "noJSONData"]
+- ["7MovieDB12NetworkErrorO", "unauthorized"]
+- ["7MovieDB12NetworkErrorO", "unknown"]
+- ["7MovieDB18ParametersEncodingO", "=="]
+- ["7MovieDB18ParametersEncodingO", ""]
+- ["7MovieDB18ParametersEncodingO", "__derived_enum_equals"]
+- ["7MovieDB18ParametersEncodingO", "_rawHashValue"]
+- ["7MovieDB18ParametersEncodingO", "hash"]
+- ["7MovieDB18ParametersEncodingO", "hashValue"]
+- ["7MovieDB18ParametersEncodingO", "json"]
+- ["7MovieDB18ParametersEncodingO", "url"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["7MovieDB4TaskO", "String"]
+- ["7MovieDB4TaskO", "requestParameters"]
+- ["7MovieDB4TaskO", "requestPlain"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "7MovieDB11APIResponseO"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "7MovieDB20FetchingServiceStateO"
+- "7MovieDB10HTTPMethodO"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "7MovieDB12NetworkErrorO"
+- "7MovieDB18ParametersEncodingO"
+- "SY"
+- "7MovieDB4TaskO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7361158cf0b63ef5a0995cbd53186d15"

@@ -1,0 +1,353 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "presentSingleButtonDialog"]
+- ["So16UIViewControllerC", "presentNetworkError"]
+provides-dynamic-lookup:
+- "presentNetworkError"
+- "presentSingleButtonDialog"
+depends-top-level:
+- !private "AlertAction"
+- "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "NetworkError"
+- "SingleButtonAlert"
+- "UIAlertAction"
+- "UIAlertController"
+- "UIViewController"
+depends-member:
+- ["SK", ""]
+- !private ["s7CVarArgP", "AlertAction"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "SingleButtonAlert"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentSingleButtonDialog"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "AlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "SingleButtonAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentSingleButtonDialog"]
+- !private ["s23CustomStringConvertibleP", "AlertAction"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "SingleButtonAlert"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentSingleButtonDialog"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SQ", "AlertAction"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", "JSONDecoder"]
+- ["SQ", "SingleButtonAlert"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "main"]
+- ["SQ", "noJSONData"]
+- !private ["SQ", "present"]
+- !private ["SQ", "presentSingleButtonDialog"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unknown"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "AlertAction"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", "JSONDecoder"]
+- ["SH", "SingleButtonAlert"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "main"]
+- ["SH", "noJSONData"]
+- !private ["SH", "present"]
+- !private ["SH", "presentSingleButtonDialog"]
+- ["SH", "unauthorized"]
+- ["SH", "unknown"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "AlertAction"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "NetworkError"]
+- ["So8NSCodingP", "SingleButtonAlert"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "present"]
+- ["So8NSCodingP", "presentNetworkError"]
+- ["So8NSCodingP", "presentSingleButtonDialog"]
+- !private ["So26NSExtensionRequestHandlingP", "AlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "NetworkError"]
+- ["So26NSExtensionRequestHandlingP", "SingleButtonAlert"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- ["So26NSExtensionRequestHandlingP", "presentNetworkError"]
+- ["So26NSExtensionRequestHandlingP", "presentSingleButtonDialog"]
+- !private ["So8NSObjectC", "AlertAction"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "NetworkError"]
+- ["So8NSObjectC", "SingleButtonAlert"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "presentNetworkError"]
+- !private ["So8NSObjectC", "presentSingleButtonDialog"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "AlertAction"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "NetworkError"]
+- ["So8NSObjectP", "SingleButtonAlert"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "present"]
+- ["So8NSObjectP", "presentNetworkError"]
+- ["So8NSObjectP", "presentSingleButtonDialog"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["7MovieDB12NetworkErrorO", "JSONDecoder"]
+- ["7MovieDB12NetworkErrorO", "noJSONData"]
+- ["7MovieDB12NetworkErrorO", "unauthorized"]
+- ["7MovieDB12NetworkErrorO", "unknown"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So21UIAppearanceContainerP", "AlertAction"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "NetworkError"]
+- ["So21UIAppearanceContainerP", "SingleButtonAlert"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- ["So21UIAppearanceContainerP", "presentNetworkError"]
+- ["So21UIAppearanceContainerP", "presentSingleButtonDialog"]
+- !private ["So18UIContentContainerP", "AlertAction"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "NetworkError"]
+- ["So18UIContentContainerP", "SingleButtonAlert"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "present"]
+- ["So18UIContentContainerP", "presentNetworkError"]
+- ["So18UIContentContainerP", "presentSingleButtonDialog"]
+- !private ["So18UIFocusEnvironmentP", "AlertAction"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "NetworkError"]
+- ["So18UIFocusEnvironmentP", "SingleButtonAlert"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- ["So18UIFocusEnvironmentP", "presentNetworkError"]
+- ["So18UIFocusEnvironmentP", "presentSingleButtonDialog"]
+- !private ["So30UIPasteConfigurationSupportingP", "AlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "NetworkError"]
+- ["So30UIPasteConfigurationSupportingP", "SingleButtonAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- ["So30UIPasteConfigurationSupportingP", "presentNetworkError"]
+- ["So30UIPasteConfigurationSupportingP", "presentSingleButtonDialog"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So11UIResponderC", "AlertAction"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "NetworkError"]
+- ["So11UIResponderC", "SingleButtonAlert"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "presentNetworkError"]
+- !private ["So11UIResponderC", "presentSingleButtonDialog"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "AlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "NetworkError"]
+- ["So30UIResponderStandardEditActionsP", "SingleButtonAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- ["So30UIResponderStandardEditActionsP", "presentNetworkError"]
+- ["So30UIResponderStandardEditActionsP", "presentSingleButtonDialog"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So16UIStateRestoringP", "AlertAction"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "NetworkError"]
+- ["So16UIStateRestoringP", "SingleButtonAlert"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "present"]
+- ["So16UIStateRestoringP", "presentNetworkError"]
+- ["So16UIStateRestoringP", "presentSingleButtonDialog"]
+- !private ["So18UITraitEnvironmentP", "AlertAction"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "NetworkError"]
+- ["So18UITraitEnvironmentP", "SingleButtonAlert"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- ["So18UITraitEnvironmentP", "presentNetworkError"]
+- ["So18UITraitEnvironmentP", "presentSingleButtonDialog"]
+- !private ["So23UIUserActivityRestoringP", "AlertAction"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- ["So23UIUserActivityRestoringP", "NetworkError"]
+- ["So23UIUserActivityRestoringP", "SingleButtonAlert"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- ["So23UIUserActivityRestoringP", "presentNetworkError"]
+- ["So23UIUserActivityRestoringP", "presentSingleButtonDialog"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- !private ["So16UIViewControllerC", "AlertAction"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "NetworkError"]
+- ["So16UIViewControllerC", "SingleButtonAlert"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "presentNetworkError"]
+- ["So16UIViewControllerC", "presentSingleButtonDialog"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SingleButtonAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentSingleButtonDialog"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SingleButtonAlert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentSingleButtonDialog"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7MovieDB12NetworkErrorO"
+- "So9OS_objectC"
+- !private "7Combine9SchedulerP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "610819ebbcb2f7bdf34c96b6f4ce8f97"
