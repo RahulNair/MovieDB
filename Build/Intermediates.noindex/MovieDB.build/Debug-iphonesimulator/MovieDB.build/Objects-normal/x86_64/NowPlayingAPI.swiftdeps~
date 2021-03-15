@@ -62,6 +62,7 @@ depends-member:
 - !private ["SH", "get"]
 - !private ["SH", "init"]
 - !private ["SH", "url"]
+- !private ["So8NSCodingP", ""]
 - !private ["So8NSObjectP", ""]
 - !private ["7MovieDB16NetworkConstantsV", "baseURL"]
 - !private ["7MovieDB16NetworkConstantsV", "defaultRequestHeaders"]
@@ -124,6 +125,7 @@ depends-nominal:
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "7MovieDB10HTTPMethodO"
 - !private "SH"
+- !private "So8NSCodingP"
 - !private "So8NSObjectP"
 - !private "7MovieDB16NetworkConstantsV"
 - "7MovieDB13NowPlayingAPIC"

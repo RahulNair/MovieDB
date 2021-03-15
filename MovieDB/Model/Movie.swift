@@ -16,7 +16,7 @@ struct Movie: Codable {
     var poster: String?
     var imageData : Data?
     
-    private var voteAverage: Decimal
+    var voteAverage: Decimal
     var rating: NSDecimalNumber {
         get { return NSDecimalNumber(decimal: voteAverage) }
     }

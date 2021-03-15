@@ -9,6 +9,7 @@ provides-dynamic-lookup:
 - "apiClient"
 - "currentPage"
 - "fetchNowPlaying"
+- "filteredMovies"
 - "response"
 - "totalPages"
 depends-top-level:
@@ -23,6 +24,7 @@ depends-top-level:
 - "FloatLiteralType"
 - "Int"
 - "IntegerLiteralType"
+- "Movie"
 - !private "NetworkConstants"
 - !private "NowPlayingAPI"
 - "NowPlayingResponse"
@@ -75,6 +77,7 @@ depends-member:
 - ["SQ", "max"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "init"]
@@ -94,7 +97,7 @@ depends-member:
 - !private ["SM", ""]
 - !private ["SM", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
-- !private ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
 - !private ["7MovieDB16NetworkConstantsV", "pageParameterKey"]
 - !private ["7MovieDB13NowPlayingAPIC", ""]
 - !private ["7MovieDB13NowPlayingAPIC", "init"]
@@ -103,6 +106,7 @@ depends-member:
 - ["7MovieDB19NowPlayingViewModelC", "APIClient"]
 - ["7MovieDB19NowPlayingViewModelC", "Bool"]
 - ["7MovieDB19NowPlayingViewModelC", "Int"]
+- ["7MovieDB19NowPlayingViewModelC", "Movie"]
 - !private ["7MovieDB19NowPlayingViewModelC", "NetworkConstants"]
 - !private ["7MovieDB19NowPlayingViewModelC", "NowPlayingAPI"]
 - ["7MovieDB19NowPlayingViewModelC", "NowPlayingResponse"]
@@ -110,6 +114,7 @@ depends-member:
 - ["7MovieDB19NowPlayingViewModelC", "currentPage"]
 - ["7MovieDB19NowPlayingViewModelC", "deinit"]
 - ["7MovieDB19NowPlayingViewModelC", "fetchNowPlaying"]
+- ["7MovieDB19NowPlayingViewModelC", "filteredMovies"]
 - ["7MovieDB19NowPlayingViewModelC", "init"]
 - ["7MovieDB19NowPlayingViewModelC", "response"]
 - ["7MovieDB19NowPlayingViewModelC", "totalPages"]
@@ -164,7 +169,7 @@ depends-nominal:
 - !private "s26DefaultStringInterpolationV"
 - "SE"
 - "SQ"
-- !private "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
@@ -176,7 +181,7 @@ depends-nominal:
 - "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSCodingP"
+- "So8NSObjectP"
 - !private "7MovieDB16NetworkConstantsV"
 - !private "7MovieDB13NowPlayingAPIC"
 - !private "7MovieDB18NowPlayingResponseV"
@@ -231,4 +236,4 @@ depends-external:
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "cb713db36e5a99e59dd155ea7a682b90"
+interface-hash: "0d9da48abd2c60e1b69199505c831164"

@@ -202,7 +202,7 @@ depends-member:
 - ["7MovieDB0A0V", "posterUrl"]
 - ["7MovieDB0A0V", "rating"]
 - ["7MovieDB0A0V", "title"]
-- !private ["7MovieDB0A0V", "voteAverage"]
+- ["7MovieDB0A0V", "voteAverage"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "decimalNumberWithDecimal"]
 - !private ["So8NSCodingP", "decimalNumberWithMantissa"]
@@ -282,7 +282,7 @@ depends-member:
 - !private ["So8NSObjectC", "valueWithRange"]
 - !private ["So8NSObjectC", "valueWithUIEdgeInsets"]
 - !private ["So8NSObjectC", "valueWithUIOffset"]
-- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "decimalNumberWithDecimal"]
 - !private ["So8NSObjectP", "decimalNumberWithMantissa"]
 - !private ["So8NSObjectP", "decimalNumberWithString"]
@@ -416,7 +416,7 @@ depends-nominal:
 - !private "So15NSDecimalNumberC"
 - "So8NSNumberC"
 - "So8NSObjectC"
-- !private "So8NSObjectP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - "So7NSValueC"
 - !private "7MovieDB16NetworkConstantsV"
@@ -463,4 +463,4 @@ depends-external:
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode12_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f27d2fbe80e2fd8ca77dc1cf5a33dcf9"
+interface-hash: "e1c81e25f28ff30e04e0831f33bf9fad"

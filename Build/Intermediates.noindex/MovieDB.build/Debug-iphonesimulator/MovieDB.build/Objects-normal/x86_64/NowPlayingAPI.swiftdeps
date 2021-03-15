@@ -106,6 +106,7 @@ depends-member:
 - !private ["7MovieDB4TaskO", "requestParameters"]
 - !private ["10Foundation3URLV", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
@@ -138,6 +139,7 @@ depends-nominal:
 - !private "7MovieDB4TaskO"
 - !private "10Foundation3URLV"
 - !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

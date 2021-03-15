@@ -145,6 +145,8 @@ depends-member:
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - ["7MovieDB0A0V", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
 - ["7MovieDB18NowPlayingResponseV", "CodingKey"]
 - ["7MovieDB18NowPlayingResponseV", "CodingKeys"]
 - ["7MovieDB18NowPlayingResponseV", "Int"]
@@ -192,6 +194,8 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "7MovieDB0A0V"
+- "So8NSCodingP"
+- "So8NSObjectP"
 - "7MovieDB18NowPlayingResponseV"
 - "SY"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

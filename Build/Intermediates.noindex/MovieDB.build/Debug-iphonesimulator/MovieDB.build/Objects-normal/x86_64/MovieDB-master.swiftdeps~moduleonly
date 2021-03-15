@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
 options: "94602037de6e717580000101d02adbfd"
-build_time: [1615746871, 160687000]
+build_time: [1615785961, 622992000]
 inputs:
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/NetworkConstants.swift": [1615744238, 414405699]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/Protocols/URLSessionProtocol.swift": [1615744577, 343607350]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/Helpers/Typealias.swift": [1615744577, 375218189]
-  "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/ViewController.swift": [1615746865, 63244611]
+  "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/ViewController.swift": [1615784066, 689237796]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Cells/MoviewCVCell.swift": [1615743539, 276443525]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/AppDelegate.swift": [1615570690, 57907206]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/NowPlayingAPI.swift": [1615744577, 396267918]
@@ -19,6 +19,6 @@ inputs:
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/MovieDetailViewController.swift": [1615740109, 122291705]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/Extensions/URLComponentExtensions.swift": [1615744577, 461044127]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Network/Helpers/NetworkEnums.swift": [1615744577, 310509162]
-  "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Model/Movie.swift": [1615744577, 476016224]
+  "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Model/Movie.swift": [1615783287, 448207943]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/Model/NowPlayingResponse.swift": [1615744577, 361489234]
   "/Users/rahulnair/proj_urgent/MovieDB/MovieDB/ViewModel/NowPlayingViewModel.swift": [1615745403, 75193485]

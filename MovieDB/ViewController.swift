@@ -39,7 +39,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let settingMenuItem = UIBarButtonItem(title: "Settings", style: .plain, target: self, action:  #selector(menuAction))
+
         
+        settingMenuItem.title = "Settings"
+        self.navigationItem.setLeftBarButton(settingMenuItem, animated: false);
+
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search Movies Locally"
@@ -83,6 +88,26 @@ class ViewController: UIViewController {
                 
             }
         }
+    }
+    
+    @objc func menuAction(){
+        print("menu button pressed")  //Do your action here
+        let alert = UIAlertController(title: "SORT", message: "Please select sorting order", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Popularity", style: .default , handler:{ [self] (UIAlertAction)in
+            let tempArray = self.nowPlayingViewModel.response?.movies
+            nowPlayingViewModel.response?.movies = (tempArray?.sorted(by: {$0.voteAverage > $1.voteAverage}))!
+            self.movieCollectionView.reloadData()
+            
+           }))
+           
+           alert.addAction(UIAlertAction(title: "Rating", style: .default , handler:{ (UIAlertAction)in
+            // TODO
+
+           }))
+
+           self.present(alert, animated: true, completion: {
+               print("completion block")
+           })
     }
     
     

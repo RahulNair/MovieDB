@@ -101,7 +101,7 @@ depends-member:
 - !private ["SH", "unknown"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
 - !private ["10Foundation11JSONDecoderC", "init"]
-- !private ["So8NSCodingP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "statusCode"]
 - !private ["So9NSCopyingP", ""]
 - !private ["So9NSCopyingP", "resume"]
@@ -165,7 +165,7 @@ depends-nominal:
 - !private "So17NSHTTPURLResponseC"
 - !private "SH"
 - !private "10Foundation11JSONDecoderC"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So8NSObjectC"
 - !private "So8NSObjectP"

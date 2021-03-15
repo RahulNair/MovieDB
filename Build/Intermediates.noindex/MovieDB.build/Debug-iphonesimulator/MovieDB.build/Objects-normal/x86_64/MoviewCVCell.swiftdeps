@@ -29,7 +29,6 @@ depends-top-level:
 depends-member:
 - !private ["7MovieDB9APIClientC", "getData"]
 - !private ["7MovieDB9APIClientC", "sharedInstance"]
-- ["SK", ""]
 - !private ["So15CALayerDelegateP", "APIClient"]
 - !private ["So15CALayerDelegateP", "DispatchQueue"]
 - ["So15CALayerDelegateP", "Movie"]
@@ -44,7 +43,7 @@ depends-member:
 - ["So15CALayerDelegateP", "init"]
 - ["So15CALayerDelegateP", "mainView"]
 - ["So15CALayerDelegateP", "prepareForReuse"]
-- ["So15CALayerDelegateP", "setupData"]
+- !private ["So15CALayerDelegateP", "setupData"]
 - !private ["So15CALayerDelegateP", "text"]
 - ["So15CALayerDelegateP", "titleLable"]
 - !private ["s7CVarArgP", "APIClient"]
@@ -61,8 +60,6 @@ depends-member:
 - !private ["s7CVarArgP", "setupData"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "titleLable"]
-- ["Sl", ""]
-- ["SL", ""]
 - !private ["s28CustomDebugStringConvertibleP", "APIClient"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
@@ -97,11 +94,8 @@ depends-member:
 - !private ["Se", "posterUrl"]
 - !private ["Se", "text"]
 - !private ["Se", "title"]
-- ["So18OS_dispatch_objectC", ""]
 - !private ["So18OS_dispatch_objectC", "async"]
-- !private ["So18OS_dispatch_objectC", "init"]
 - !private ["So18OS_dispatch_objectC", "main"]
-- !private ["So18OS_dispatch_objectC", "sync"]
 - !private ["So17OS_dispatch_queueC", "async"]
 - !private ["So17OS_dispatch_queueC", "main"]
 - !private ["SE", "image"]
@@ -122,12 +116,8 @@ depends-member:
 - !private ["SQ", "setupData"]
 - !private ["SQ", "text"]
 - !private ["SQ", "titleLable"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "image"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SH", "APIClient"]
 - !private ["SH", "DispatchQueue"]
 - !private ["SH", "UIImage"]
@@ -142,7 +132,6 @@ depends-member:
 - !private ["SH", "setupData"]
 - !private ["SH", "text"]
 - !private ["SH", "titleLable"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["7MovieDB0A0V", "posterUrl"]
 - !private ["7MovieDB0A0V", "title"]
 - !private ["7MovieDB12MoviewCVCellC", "APIClient"]
@@ -175,7 +164,7 @@ depends-member:
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "mainView"]
 - ["So8NSCodingP", "prepareForReuse"]
-- ["So8NSCodingP", "setupData"]
+- !private ["So8NSCodingP", "setupData"]
 - !private ["So8NSCodingP", "text"]
 - ["So8NSCodingP", "titleLable"]
 - !private ["So21NSItemProviderReadingP", "init"]
@@ -188,7 +177,6 @@ depends-member:
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UIView"]
 - ["So8NSObjectC", ""]
-- !private ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "async"]
 - ["So8NSObjectC", "awakeFromNib"]
 - !private ["So8NSObjectC", "image"]
@@ -204,23 +192,17 @@ depends-member:
 - ["So8NSObjectC", "mainView"]
 - !private ["So8NSObjectC", "pngData"]
 - ["So8NSObjectC", "prepareForReuse"]
-- !private ["So8NSObjectC", "resume"]
-- !private ["So8NSObjectC", "setTarget"]
 - ["So8NSObjectC", "setupData"]
-- !private ["So8NSObjectC", "suspend"]
-- !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "titleLable"]
 - !private ["So8NSObjectP", "APIClient"]
 - !private ["So8NSObjectP", "DispatchQueue"]
-- ["So8NSObjectP", "Movie"]
 - !private ["So8NSObjectP", "UIImage"]
 - ["So8NSObjectP", "UIImageView"]
 - ["So8NSObjectP", "UILabel"]
 - ["So8NSObjectP", "UIView"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "async"]
 - ["So8NSObjectP", "awakeFromNib"]
 - !private ["So8NSObjectP", "image"]
@@ -236,31 +218,17 @@ depends-member:
 - ["So8NSObjectP", "mainView"]
 - !private ["So8NSObjectP", "pngData"]
 - ["So8NSObjectP", "prepareForReuse"]
-- !private ["So8NSObjectP", "resume"]
-- !private ["So8NSObjectP", "setTarget"]
-- ["So8NSObjectP", "setupData"]
-- !private ["So8NSObjectP", "suspend"]
-- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "setupData"]
 - !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "text"]
 - ["So8NSObjectP", "titleLable"]
 - !private ["So14NSSecureCodingP", "init"]
-- ["So9OS_objectC", ""]
-- !private ["So9OS_objectC", "activate"]
 - !private ["So9OS_objectC", "async"]
-- !private ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "main"]
-- !private ["So9OS_objectC", "resume"]
-- !private ["So9OS_objectC", "setTarget"]
-- !private ["So9OS_objectC", "suspend"]
-- !private ["So9OS_objectC", "sync"]
 - !private ["Sq", "image"]
 - !private ["Sq", "text"]
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "main"]
-- ["ST", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "APIClient"]
 - !private ["So29UIAccessibilityIdentificationP", "DispatchQueue"]
@@ -276,7 +244,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "init"]
 - ["So29UIAccessibilityIdentificationP", "mainView"]
 - ["So29UIAccessibilityIdentificationP", "prepareForReuse"]
-- ["So29UIAccessibilityIdentificationP", "setupData"]
+- !private ["So29UIAccessibilityIdentificationP", "setupData"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - ["So29UIAccessibilityIdentificationP", "titleLable"]
 - !private ["So12UIAppearanceP", "APIClient"]
@@ -293,7 +261,7 @@ depends-member:
 - ["So12UIAppearanceP", "init"]
 - ["So12UIAppearanceP", "mainView"]
 - ["So12UIAppearanceP", "prepareForReuse"]
-- ["So12UIAppearanceP", "setupData"]
+- !private ["So12UIAppearanceP", "setupData"]
 - !private ["So12UIAppearanceP", "text"]
 - ["So12UIAppearanceP", "titleLable"]
 - !private ["So21UIAppearanceContainerP", "APIClient"]
@@ -310,7 +278,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "mainView"]
 - ["So21UIAppearanceContainerP", "prepareForReuse"]
-- ["So21UIAppearanceContainerP", "setupData"]
+- !private ["So21UIAppearanceContainerP", "setupData"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - ["So21UIAppearanceContainerP", "titleLable"]
 - !private ["So24UICollectionReusableViewC", "APIClient"]
@@ -358,7 +326,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "init"]
 - ["So17UICoordinateSpaceP", "mainView"]
 - ["So17UICoordinateSpaceP", "prepareForReuse"]
-- ["So17UICoordinateSpaceP", "setupData"]
+- !private ["So17UICoordinateSpaceP", "setupData"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - ["So17UICoordinateSpaceP", "titleLable"]
 - !private ["So13UIDynamicItemP", "APIClient"]
@@ -375,7 +343,7 @@ depends-member:
 - ["So13UIDynamicItemP", "init"]
 - ["So13UIDynamicItemP", "mainView"]
 - ["So13UIDynamicItemP", "prepareForReuse"]
-- ["So13UIDynamicItemP", "setupData"]
+- !private ["So13UIDynamicItemP", "setupData"]
 - !private ["So13UIDynamicItemP", "text"]
 - ["So13UIDynamicItemP", "titleLable"]
 - !private ["So18UIFocusEnvironmentP", "APIClient"]
@@ -392,7 +360,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "mainView"]
 - ["So18UIFocusEnvironmentP", "prepareForReuse"]
-- ["So18UIFocusEnvironmentP", "setupData"]
+- !private ["So18UIFocusEnvironmentP", "setupData"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - ["So18UIFocusEnvironmentP", "titleLable"]
 - !private ["So11UIFocusItemP", "APIClient"]
@@ -409,7 +377,7 @@ depends-member:
 - ["So11UIFocusItemP", "init"]
 - ["So11UIFocusItemP", "mainView"]
 - ["So11UIFocusItemP", "prepareForReuse"]
-- ["So11UIFocusItemP", "setupData"]
+- !private ["So11UIFocusItemP", "setupData"]
 - !private ["So11UIFocusItemP", "text"]
 - ["So11UIFocusItemP", "titleLable"]
 - !private ["So20UIFocusItemContainerP", "APIClient"]
@@ -426,7 +394,7 @@ depends-member:
 - ["So20UIFocusItemContainerP", "init"]
 - ["So20UIFocusItemContainerP", "mainView"]
 - ["So20UIFocusItemContainerP", "prepareForReuse"]
-- ["So20UIFocusItemContainerP", "setupData"]
+- !private ["So20UIFocusItemContainerP", "setupData"]
 - !private ["So20UIFocusItemContainerP", "text"]
 - ["So20UIFocusItemContainerP", "titleLable"]
 - !private ["So7UIImageC", "init"]
@@ -447,12 +415,11 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "init"]
 - ["So24UILargeContentViewerItemP", "mainView"]
 - ["So24UILargeContentViewerItemP", "prepareForReuse"]
-- ["So24UILargeContentViewerItemP", "setupData"]
+- !private ["So24UILargeContentViewerItemP", "setupData"]
 - !private ["So24UILargeContentViewerItemP", "text"]
 - ["So24UILargeContentViewerItemP", "titleLable"]
 - !private ["So30UIPasteConfigurationSupportingP", "APIClient"]
 - !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
-- ["So30UIPasteConfigurationSupportingP", "Movie"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - ["So30UIPasteConfigurationSupportingP", "UIImageView"]
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
@@ -464,7 +431,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "mainView"]
 - ["So30UIPasteConfigurationSupportingP", "prepareForReuse"]
-- ["So30UIPasteConfigurationSupportingP", "setupData"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupData"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "titleLable"]
 - !private ["So11UIResponderC", "APIClient"]
@@ -486,7 +453,6 @@ depends-member:
 - ["So11UIResponderC", "titleLable"]
 - !private ["So30UIResponderStandardEditActionsP", "APIClient"]
 - !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
-- ["So30UIResponderStandardEditActionsP", "Movie"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - ["So30UIResponderStandardEditActionsP", "UIImageView"]
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
@@ -498,7 +464,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "mainView"]
 - ["So30UIResponderStandardEditActionsP", "prepareForReuse"]
-- ["So30UIResponderStandardEditActionsP", "setupData"]
+- !private ["So30UIResponderStandardEditActionsP", "setupData"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - ["So30UIResponderStandardEditActionsP", "titleLable"]
 - !private ["So18UITraitEnvironmentP", "APIClient"]
@@ -515,12 +481,11 @@ depends-member:
 - ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "mainView"]
 - ["So18UITraitEnvironmentP", "prepareForReuse"]
-- ["So18UITraitEnvironmentP", "setupData"]
+- !private ["So18UITraitEnvironmentP", "setupData"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - ["So18UITraitEnvironmentP", "titleLable"]
 - !private ["So23UIUserActivityRestoringP", "APIClient"]
 - !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
-- ["So23UIUserActivityRestoringP", "Movie"]
 - !private ["So23UIUserActivityRestoringP", "UIImage"]
 - ["So23UIUserActivityRestoringP", "UIImageView"]
 - ["So23UIUserActivityRestoringP", "UILabel"]
@@ -532,7 +497,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "mainView"]
 - ["So23UIUserActivityRestoringP", "prepareForReuse"]
-- ["So23UIUserActivityRestoringP", "setupData"]
+- !private ["So23UIUserActivityRestoringP", "setupData"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - ["So23UIUserActivityRestoringP", "titleLable"]
 - !private ["So6UIViewC", "APIClient"]
@@ -552,10 +517,7 @@ depends-member:
 - ["So6UIViewC", "setupData"]
 - !private ["So6UIViewC", "text"]
 - ["So6UIViewC", "titleLable"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "APIClient"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
@@ -600,26 +562,18 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLable"]
 depends-nominal:
 - !private "7MovieDB9APIClientC"
-- "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
-- "So18OS_dispatch_objectC"
+- !private "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
-- "s25LosslessStringConvertibleP"
 - !private "7MovieDB0A0V"
 - "7MovieDB12MoviewCVCellC"
 - "So8NSCodingP"
@@ -628,12 +582,9 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- "So9OS_objectC"
+- !private "So9OS_objectC"
 - !private "Sq"
 - !private "7Combine9SchedulerP"
-- "ST"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -657,10 +608,7 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
